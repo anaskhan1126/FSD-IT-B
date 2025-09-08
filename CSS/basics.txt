@@ -1,0 +1,7 @@
+Imported method of css;;;;
+<style>
+@import url("style1.css");
+h1{color : green};
+@import url("style2.css");
+</style>
+exter
