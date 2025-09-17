@@ -1,0 +1,36 @@
+Features in advance js(ES-6,ECMA-2015)
+1.let and const
+2.default parameter
+3.arrow function
+4.promise
+5.fetch
+6.filter,map,reduce
+7.spread and rest(...)operator
+8.Destructuring
+9.templete literal
+10.module
+v22.12.0 
+major version(first dot),minor version(second dot),patch(third dot)
+-----TYPES OF FUNCTIONS IN JS----------------------------------------------
+1.Normal function
+2.Arrow function
+3.Anonymous function(function without a name)
+4.IIFE(Immediately Invoked Function Expression)
+5.Callback(we can pass function as parameter in another function)
+Asynchrnous as synchronous 
+1.Callback
+2.promise
+3.async/await
+------PROMISE------------------------
+STATES==
+1.Resolve
+2.Reject
+3.Pending
+Syntax==
+new PROMISE((resolve,reject)=>{
+    console.log("Task Done);
+    resolve()/reject();
+});
+Pr.then()
+Pr.catch()
+Pr.finally

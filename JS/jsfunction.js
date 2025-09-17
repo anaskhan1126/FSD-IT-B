@@ -13,19 +13,19 @@
 
 // const hello=()=>console.log("Hello");  //anonymous function with arrow 
 // hello();
-const add=(a,b)=>(a+b);
+// const add=(a,b)=>(a+b);
 // console.log(add(4,6));
 //IIFE----function definition and calling at the same time
 // (function (){
 //     console.log("hello anas")
 // })();
 
-function hello(user,callback){
-    console.log(`Hello ${user}`);
-    callback();
-}
-hello('admin',()=>{
-   console.log(add(5,5))});
-hello('anas',function(){
-    console.log(add(9,6));
-})
+// function hello(user,callback){
+//     console.log(`Hello ${user}`);
+//     callback();
+// }
+// hello('admin',()=>{
+//    console.log(add(5,5))});
+// hello('anas',function(){
+//     console.log(add(9,6));
+// })
