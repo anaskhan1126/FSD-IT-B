@@ -1,0 +1,12 @@
+const  child=document.createElement("div");
+child.className="card";
+const  image=document.createElement("img");
+image.src="https://tse4.mm.bing.net/th/id/OIP.-z0DA20cOrqiC-WaKXyvfgAAAA?pid=Api&P=0&h=180";
+image.width="150";
+image.width="150";
+const  h4=document.createElement("h4");
+h4.innerText="Price : 350/-";
+child.appendChild(image);
+child.appendChild(h4);
+const parent=document.getElementById("root");
+parent.appendChild(child);
